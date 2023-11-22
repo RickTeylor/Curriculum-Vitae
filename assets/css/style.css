@@ -1,0 +1,104 @@
+.body {
+    width: 1160px;
+    margin: 0 auto; /* Centrer le contenu dans le navigateur */
+    border-right: 25em solid #782221; /* Bordure à droite */
+    padding: 20px; /* Marge intérieure */
+    
+    
+}
+
+
+h2{
+    color:#050300 ;
+    background-color: #dbc2a4;
+    
+}
+
+a{
+    color: aliceblue;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15em;
+    background-color: #782221;
+    text-align: center;
+        color: aliceblue;}
+
+
+
+img {
+    
+    
+    
+    height: 5em;
+    border-radius: 50%; /* Rendre la photo de profil arrondie */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Ajouter une ombre */
+}
+
+
+address {
+ 
+    display: flex;
+    align-items: center;
+   justify-content: space-around;
+    height: 5em;
+    background-color: #2c1d27;
+}
+
+
+
+.informations {
+    display: flex ;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 25em;
+    height: 40em;
+
+
+    
+
+    
+    background-color: #782221
+}
+
+.principal {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+
+footer {
+    justify-content: flex-end;
+    background-color: #782221
+    /* Ajoutez les styles pour les liens vers les réseaux sociaux */
+    
+}
+
+
+
+
+/* Ajoutez d'autres styles spécifiques en fonction des instructions*/
+
+/* Effet n° 1 */
+.experience:hover,
+.education:hover,
+.skills:hover {
+    border-right: 3px solid #782221; /* Bordure bordeaux au survol */
+}
+
+/* Effet n° 2 */
+.profile-picture:hover {
+    cursor: pointer;
+}
+
+/* Effet n° 3 */
+.social-icon:hover {
+    opacity: 0.8; /* Réduire légèrement l'opacité au survol */
+}
